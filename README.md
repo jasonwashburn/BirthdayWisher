@@ -1,7 +1,7 @@
-#Birthday Wisher
+# Birthday Wisher
 
-A python script that uses the gmail smtp server to send a randomly chosen, customized birthday message to the 
-contacts listed in birthdays.csv
+A python script that uses the gmail smtp server to automatically send a randomly chosen, customized birthday message to the 
+contacts listed in birthdays.csv on their birthday.
 
 **To Use**: Rename the example_config.py to config.py and enter your gmail credentials.
 
