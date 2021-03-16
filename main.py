@@ -42,5 +42,6 @@ for index, row in todays_birthdays_df.iterrows():
         custom_message = letter_file.read()
 
     custom_message = custom_message.replace("[NAME]", row['name'])
+    custom_message = custom_message.replace("[FROM]", config.my_name)
     print(f"Sending message to {row['name']} - {row['email']}")
     send_email(to_address=row['email'], subject='Happy Birthday', message=custom_message)
